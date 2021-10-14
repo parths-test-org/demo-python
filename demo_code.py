@@ -139,7 +139,7 @@ def wrong_callable():
 
 def testing_transformers():
     a = "a"
-    return   a
+    return a
 
 
 if __name__ == "__main__":

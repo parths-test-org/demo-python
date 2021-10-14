@@ -132,6 +132,9 @@ def wrong_callable():
     number = ImaginaryNumber()
     if hasattr(number, '__call__'):
         return number()
+    
+def testing_transformers():
+    a  = 'a'
 
 if __name__ == "__main__":
     args = ["--disable", "all"]

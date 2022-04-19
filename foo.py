@@ -11,4 +11,4 @@ breakpoint()
 
 
 def get_something():
-  raise NotImplemented
+  raise NotImplementedError

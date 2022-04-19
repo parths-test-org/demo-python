@@ -8,3 +8,7 @@ print(b, nums)
 breakpoint()
 
 breakpoint()
+
+
+def get_something():
+  raise NotImplemented

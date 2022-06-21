@@ -5,9 +5,6 @@ nums = [i for i in range(10)]
 a = 1
 b = 2
 print(b, nums)
-breakpoint()
-
-breakpoint()
 
 def aaa(a=[]):
   breakpoint()
@@ -15,9 +12,8 @@ def aaa(a=[]):
 
 
 def foo(b=[]):
+  breakpoint()
   return 1
 
 def bar(a):
   return 1
-
-breakpoint()

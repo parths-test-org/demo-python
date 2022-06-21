@@ -16,4 +16,5 @@ def foo(b=[]):
   return 1
 
 def bar(a):
-  return 1
+  b = a
+  return b

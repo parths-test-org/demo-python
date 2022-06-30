@@ -33,3 +33,13 @@ def another_test_method():
   f.write("config file.")
   f.close()
   print('abc')
+  
+def testing_some_stuff(n):
+  if n < 0:
+    return -1
+  elif n == 0:
+    return 0
+  elif n > 0:
+    return 1
+  
+  raise ValueError('something went wrong!')

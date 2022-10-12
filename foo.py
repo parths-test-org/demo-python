@@ -48,4 +48,7 @@ def testing_method(a=None):
   print(a)
 
 def bam():
+  breakpoint()
+  pat = 'ghp_bgh241lkj8s7dalks89'
+  ACCESS_TOKEN_SALT="23dcsasdf1276743094875"
   print('bam!')

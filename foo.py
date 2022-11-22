@@ -10,6 +10,8 @@ def baz(a=None):
     a = []
   return 0
 
+breakpoint()
+
 def aaa(a=None):
   if a is None:
     a = []

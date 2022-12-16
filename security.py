@@ -24,10 +24,10 @@ class ResidentsDb:
         data = None
         self.conn.commit()
         return data
-    
+
     @staticmethod
     def foo():
-        print('hello')
+        print("hello")
 
 
 def fetch_version(request):

@@ -1,5 +1,5 @@
 import random
-import sys as sys
+import sys
 import os
 import subprocess
 import ssl

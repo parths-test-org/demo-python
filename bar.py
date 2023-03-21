@@ -6,6 +6,7 @@ breakpoint()
 def foo(a=None):
     print("abc")
 
+
 def bar(z=None):
-    print('useless')
+    print("useless")
     assert z

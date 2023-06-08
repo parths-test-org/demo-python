@@ -1,9 +1,9 @@
 import os
 
-nums = list( range(10))
+nums = list(range(10))
 
 if a != 1:
-    raise   AssertionError
+    raise AssertionError
 print(b, nums)
 
 

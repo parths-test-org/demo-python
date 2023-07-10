@@ -1,9 +1,9 @@
 import os
 
-nums = list( range(10))
+nums = list(range(10))
 
 if a != 1:
-    raise   AssertionError
+    raise AssertionError
 print(b, nums)
 
 
@@ -22,6 +22,8 @@ def aaa(a=None):
 def foo(b=None):
     if b is None:
         b = []
+
+    z = 12
     return 1
 
 

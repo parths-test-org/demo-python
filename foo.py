@@ -24,7 +24,6 @@ def foo(b=None):
         b = []
 
     z = 12
-    breakpoint()
     return 1
 
 

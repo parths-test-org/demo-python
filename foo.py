@@ -22,6 +22,10 @@ def aaa(a=None):
 def foo(b=None):
     if b is None:
         b = []
+
+
+    z = 12
+    breakpoint( )
     return 1
 
 

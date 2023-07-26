@@ -19,9 +19,9 @@ def aaa(a=None):
     return 1
 
 
-def foo(b=None):
-    if b is None:
-        b = []
+def foo(b=  None):
+    if b is  None:
+        b = [ ]
 
     z = 12
     return 1

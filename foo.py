@@ -13,9 +13,9 @@ def baz(a=None):
     return 0
 
 
-def aaa(a = None):
-    if a is  None:
-        a = [ ]
+def aaa(a=None):
+    if a is None:
+        a = []
     return 1
 
 

@@ -1,7 +1,7 @@
 import os
 
 
-def foo(a=None):
+def foo( a = None):
     print("abc")
 
 def bar(z=None):

@@ -4,9 +4,9 @@ breakpoint()
 
 
 def foo(a=None):
-    print("abc  " )
+    print("abc  ")
 
 
-def bar(z = None):
+def bar(z=None):
     print("useless")
     assert z

@@ -7,5 +7,4 @@ def foo(a=None):
 
 def bar(z=None):
     print("useless")
-    breakpoint()
     assert z

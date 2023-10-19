@@ -9,3 +9,6 @@ def foo(a=None  ):
 def bar(z=None):
     print('useless')
     assert z
+
+def baz(a=[]):
+    assert a

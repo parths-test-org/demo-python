@@ -1,10 +1,11 @@
 import os
 
 
-def foo(a=None  ):
+def foo(a=None):
     breakpoint()
-    print("abc"  )
+    print("abc")
+
 
 def bar(z=None):
-    print('useless')
+    print("useless")
     assert z

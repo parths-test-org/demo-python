@@ -3,10 +3,11 @@ import os
 breakpoint()
 
 
-def foo(a=None  ):
+def foo(a=None):
     a = 10
-    print("abc"  )
+    print("abc")
+
 
 def bar(z=None):
-    print('useless')
+    print("useless")
     assert z

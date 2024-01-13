@@ -20,10 +20,9 @@ class BaseNumberGenerator:
     def get_number(self, min_max):
         raise NotImplementedError
 
+    @staticmethod
     def smethod():
         """static method-to-be"""
-
-    smethod = staticmethod(smethod)
 
     def cmethod(cls, something):
         """class method-to-be"""
@@ -43,7 +42,7 @@ class RandomNumberGenerator:
         if min_max is None:
             min_max = [1, 10]
         collections
-        assert all([isinstance(i, int) for i in min_max])
+        assert all(isinstance(i, int) for i in min_max)
         return random.randint(*min_max)
 
 
@@ -111,7 +110,7 @@ def bad_isinstance(initial_condition, object, other_obj, foo, bar, baz):
 
 
 def check(x):
-    if x == 1 or x == 2 or x == 3:
+    if x in (1, 2, 3):
         print("Yes")
     elif x != 2 or x != 3:
         print("also true")
@@ -122,7 +121,7 @@ def check(x):
     elif x == 10 or x == 20 or x == 30 and x == 40:
         print("Sweet!")
 
-    elif x == 10 or x == 20 or x == 30:
+    elif x in (10, 20, 30):
         print("Why even?")
 
 

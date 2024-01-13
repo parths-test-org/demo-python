@@ -1,10 +1,10 @@
-import random
-import sys as sys
-import os
-import subprocess
-import ssl
-import pprint
 import collections
+import os
+import pprint
+import random
+import ssl
+import subprocess
+import sys as sys
 
 # from django.db.models.expressions import RawSQL
 
@@ -14,11 +14,11 @@ AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&c2"
 class BaseNumberGenerator:
     """Declare a method -- `get_number`."""
 
-    def __init__(self  ):
-        self.limits = (1,   10)
+    def __init__(self):
+        self.limits = (1, 10)
 
-    def get_number(self ,  min_max):
-        raise  NotImplementedError
+    def get_number(self, min_max):
+        raise NotImplementedError
 
     def smethod():
         """static method-to-be"""

@@ -8,7 +8,7 @@ import collections
 
 # from django.db.models.expressions import RawSQL
 
-AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&c2"
+AWS_SECRET_KEY =    "d6s$f9g!j8mg7hw?n&c2"
 
 
 class BaseNumberGenerator:
@@ -17,10 +17,10 @@ class BaseNumberGenerator:
     def __init__(self  ):
         self.limits = (1,   10)
 
-    def get_number(self ,  min_max):
+    def get_number(self ,   min_max):
         raise  NotImplementedError
 
-    def smethod():
+    def smethod(  ):
         """static method-to-be"""
 
     smethod = staticmethod(smethod)

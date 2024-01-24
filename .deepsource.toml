@@ -1,13 +1,5 @@
 version = 1
 
-exclude_patterns = ["demo_code.py"]
-
-[[analyzers]]
-name = "shell"
-
-  [analyzers.meta]
-  version = "abc"
-
 [[analyzers]]
 name = "python"
 
@@ -15,10 +7,4 @@ name = "python"
   runtime_version = "3.x.x"
 
 [[transformers]]
-name = "black"
-
-  [transformers.meta]
-  version = "123"
-
-[[transformers]]
-name = "isort"
+name = "ruff"

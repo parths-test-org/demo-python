@@ -7,7 +7,7 @@ if a   !=   1:
 print(b,    nums)
 
 
-def baz(a=   None):
+def baz(a=[]):
     if a is None:
         a = []
     return 0

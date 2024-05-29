@@ -2,9 +2,9 @@ import os
 
 nums = list(range(10))
 
-if a   !=   1:
-    raise   AssertionError
-print(b,    nums)
+if a != 1:
+    raise AssertionError
+print(b, nums)
 
 
 def baz(a=[]):
@@ -19,9 +19,9 @@ def aaa(a=None):
     return 1
 
 
-def foo(b=  None):
-    if b is  None:
-        b = [ ]
+def foo(b=None):
+    if b is None:
+        b = []
 
     z = 12
     return 1

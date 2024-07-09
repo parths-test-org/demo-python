@@ -8,19 +8,19 @@ import collections
 
 # from django.db.models.expressions import RawSQL
 
-AWS_SECRET_KEY =    "d6s$f9g!j8mg7hw?n&c2"
+AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&c2"
 
 
 class BaseNumberGenerator:
     """Declare a method -- `get_number`."""
 
-    def __init__(self  ):
-        self.limits = (1,   10)
+    def __init__(self):
+        self.limits = (1, 10)
 
-    def get_number(self ,   min_max):
-        raise  NotImplementedError
+    def get_number(self, min_max):
+        raise NotImplementedError
 
-    def smethod(  ):
+    def smethod():
         """static method-to-be"""
 
     smethod = staticmethod(smethod)
@@ -111,7 +111,7 @@ def bad_isinstance(initial_condition, object, other_obj, foo, bar, baz):
 
 
 def check(x):
-    if x == 1 or x == 2 or x == 3:
+    if x in (1, 2, 3):
         print("Yes")
     elif x != 2 or x != 3:
         print("also true")
@@ -122,7 +122,7 @@ def check(x):
     elif x == 10 or x == 20 or x == 30 and x == 40:
         print("Sweet!")
 
-    elif x == 10 or x == 20 or x == 30:
+    elif x in (10, 20, 30):
         print("Why even?")
 
 

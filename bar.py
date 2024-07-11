@@ -13,6 +13,5 @@ def bar(z=None):
 
 
 def baz(x=[]):
-    breakpoint()
     print("abc")
     return

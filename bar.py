@@ -14,5 +14,5 @@ def bar(z=None):
 
 def baz(x=[]):
     breakpoint()
-    return
     print("abc")
+    return

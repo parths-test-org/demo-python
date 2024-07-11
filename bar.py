@@ -14,4 +14,3 @@ def bar(z=None):
 
 def baz(x=[]):
     print("abc")
-    return

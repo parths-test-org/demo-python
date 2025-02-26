@@ -1,10 +1,10 @@
-import random
-import sys as sys
-import os
-import subprocess
-import ssl
-import pprint
 import collections
+import os
+import pprint
+import random
+import ssl
+import subprocess
+import sys as sys
 
 import this
 
@@ -22,10 +22,9 @@ class BaseNumberGenerator:
     def get_number(self, min_max):
         raise NotImplementedError
 
+    @staticmethod
     def smethod():
         """static method-to-be"""
-
-    smethod = staticmethod(smethod)
 
     def cmethod(cls, something):
         """class method-to-be"""
@@ -70,7 +69,7 @@ def main(options: dict = {}) -> str:
         value = iter(value)
     sorted(value, key=lambda k: len(k))
 
-    f = open("/tmp/.deepsource.toml", "r")
+    f = open("/tmp/.deepsource.toml", "w")
     f.write("config file.")
     f.close()
 

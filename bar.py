@@ -4,13 +4,16 @@ breakpoint()
 
 
 def foo(a=None):
+    breakpoint()
     print("abc")
 
 
-def bar(z=None):
+def bar(z=[]):
+    breakpoint()
     print("useless")
     assert z
 
 
 def baz(x=[]):
+    breakpoint()
     print("abc")
